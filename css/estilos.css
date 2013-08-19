@@ -1,0 +1,53 @@
+body {
+	font-size: 16px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+
+header {
+	background-color:#29292a;
+	height:80px;
+	width:100%;
+}
+nav {
+	width: 100%;
+	margin: 0 auto;
+	display: inline;
+}
+nav figure
+{
+	background-color: #f64747;
+	display: inline-block;
+	height: 100px;
+	width: 130px;		
+}
+nav #menu_izq
+{
+	display: inline;
+	margin-right: 2em;
+
+	vertical-align: middle;
+}
+nav #menu_izq li 
+{
+	color: white;
+	display: inline;
+	vertical-align: middle;
+}
+
+nav #menu_der
+{
+	display: inline;
+	margin-left: 2em;
+	vertical-align: middle;
+}
+nav #menu_der li 
+{
+	color: white;
+	display: inline;
+	margin-left: 1em;
+	vertical-align: middle;
+}
