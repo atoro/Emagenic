@@ -1,53 +1,74 @@
-body {
+body 
+{
 	font-size: 16px;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
-
-header {
+header 
+{
 	background-color:#29292a;
 	height:80px;
+	margin:  auto;
 	width:100%;
 }
-nav {
-	width: 100%;
-	margin: 0 auto;
-	display: inline;
+section
+{
+	background-color: #ebeced;
 }
-nav figure
+section #slide
+{	
+	margin: auto;
+	height: 400px;
+	vertical-align: middle;
+	width: 1000px;
+}
+
+
+nav 
+{
+	margin:  auto;
+	width: 1000px;
+}
+nav a 
+{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: #f64747;
+	text-decoration: none;
+}
+nav figure 
 {
 	background-color: #f64747;
 	display: inline-block;
 	height: 100px;
-	width: 130px;		
-}
-nav #menu_izq
-{
-	display: inline;
-	margin-right: 2em;
-
+	text-align: center;
 	vertical-align: middle;
+	width: 130px;
+}
+nav #menu_izq 
+{
+	color: white;
+	display: inline-block;
+	margin-right: 2em;
 }
 nav #menu_izq li 
 {
-	color: white;
-	display: inline;
-	vertical-align: middle;
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em;
 }
-
-nav #menu_der
+nav #menu_der 
 {
-	display: inline;
-	margin-left: 2em;
-	vertical-align: middle;
+	color: white;
+	display: inline-block;
 }
 nav #menu_der li 
 {
-	color: white;
-	display: inline;
-	margin-left: 1em;
-	vertical-align: middle;
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em;
 }
