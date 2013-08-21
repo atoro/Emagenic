@@ -1,9 +1,48 @@
+article 
+{
+	height: 250px;
+	margin: auto;
+	width: 1000px;
+}
+article h2
+{
+	color: white;
+	display: block;
+	font-size: 18;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+}
+article p
+{
+	color: white;
+	display: inline-block;
+	float: left;
+	font-size: 12;
+	text-align: justify;
+	margin: auto;
+	width: 450px;
+}
+article div
+{
+	background:url(../imagenes/nosotros.png);
+	float: right;
+	height: 311px;
+	padding-top: 35px;
+	padding-left: 40px;
+	position: absolute;
+	top: 500px;
+	left: 600px;
+	width: 407px;	
+	margin: auto;
+}
 body 
 {
 	font-size: 16px;
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: 0;
+	font-family: 'Roboto', sans-serif;
 }
 header 
 {
@@ -12,16 +51,16 @@ header
 	margin:  auto;
 	width:100%;
 }
-section
-{
-	background-color: #ebeced;
-}
-section #slide
+#slide
 {	
 	margin: auto;
-	height: 400px;
+	height: 450px;
 	vertical-align: middle;
 	width: 1000px;
+}
+#slide img 
+{
+	margin-top: 20px;
 }
 
 
@@ -71,4 +110,14 @@ nav #menu_der li
 	display: inline-block;
 	text-decoration: none;
 	padding: 1em;
+}
+#nosotros
+{
+	background-color: #f64747;
+	width: 100%;
+	margin: auto;
+}
+#servicios 
+{
+	height: 600px;
 }
