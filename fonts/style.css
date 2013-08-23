@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-google-plus, .icon-twitter, .icon-facebook, .icon-flickr, .icon-apple, .icon-android, .icon-youtube, .icon-skype, .icon-linkedin, .icon-html5, .icon-safari, .icon-opera, .icon-IE, .icon-firefox, .icon-chrome {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-google-plus:before {
+	content: "\e001";
+}
+.icon-twitter:before {
+	content: "\e000";
+}
+.icon-facebook:before {
+	content: "\e002";
+}
+.icon-flickr:before {
+	content: "\e003";
+}
+.icon-apple:before {
+	content: "\e004";
+}
+.icon-android:before {
+	content: "\e005";
+}
+.icon-youtube:before {
+	content: "\e006";
+}
+.icon-skype:before {
+	content: "\e007";
+}
+.icon-linkedin:before {
+	content: "\e008";
+}
+.icon-html5:before {
+	content: "\e009";
+}
+.icon-safari:before {
+	content: "\e00a";
+}
+.icon-opera:before {
+	content: "\e00b";
+}
+.icon-IE:before {
+	content: "\e00c";
+}
+.icon-firefox:before {
+	content: "\e00d";
+}
+.icon-chrome:before {
+	content: "\e00e";
+}

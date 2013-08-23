@@ -1,0 +1,88 @@
+@media screen and (min-width: 768px) {
+	
+
+body
+{
+	margin: 0 auto;
+}
+footer div .safariicon:after
+{
+	content: "\e00a";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .operaicon:after
+{
+	content: "\e00b";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .ieicon:after
+{
+	content: "\e00c";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .chromeicon:after
+{
+	content: "\e00e";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .firefoxicon:after
+{
+	content: "\e00d";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .macicon:after
+{
+	content: "\e004";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+	display: none;
+}
+
+footer div .androidicon:after
+{
+	content: "\e005";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+	display: none;
+}
+}
