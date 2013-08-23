@@ -2,6 +2,7 @@ article
 {
 	height: 250px;
 	margin: auto;
+	position: relative;
 	width: 1000px;
 }
 article h2
@@ -31,7 +32,7 @@ article div
 	padding-top: 35px;
 	padding-left: 40px;
 	position: absolute;
-	top: 500px;
+	top: -20px;
 	left: 600px;
 	width: 407px;	
 	margin: auto;
@@ -49,12 +50,17 @@ header
 	background-color:#29292a;
 	height:80px;
 	margin:  auto;
+	position: fixed;
 	width:100%;
+	z-index:1; 
 }
+
+
 #slide
 {	
 	margin: auto;
 	height: 450px;
+	padding-top: 70px;
 	vertical-align: middle;
 	width: 1000px;
 }
