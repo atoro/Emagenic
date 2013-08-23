@@ -1,3 +1,35 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#nosotros
+{
+	background-color: #f64747;
+	width: 100%;
+	margin: auto;
+}
+#servicios 
+{
+	height: 600px;
+}
+#slide
+{	
+	margin: auto;
+	height: 450px;
+	padding-top: 70px;
+	vertical-align: middle;
+	width: 1000px;
+}
+#slide img 
+{
+	margin-top: 20px;
+}
 article 
 {
 	height: 250px;
@@ -9,20 +41,11 @@ article h2
 {
 	color: white;
 	display: block;
-	font-size: 18;
+	font-size: 12;
+	font-family: "Roboto";
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin: auto;
-}
-article p
-{
-	color: white;
-	display: inline-block;
-	float: left;
-	font-size: 12;
-	text-align: justify;
-	margin: auto;
-	width: 450px;
 }
 article div
 {
@@ -37,63 +60,124 @@ article div
 	width: 407px;	
 	margin: auto;
 }
+article p
+{
+	color: white;
+	font-family: "Roboto";
+	display: inline-block;
+	float: left;
+	font-size: 10;
+	text-align: justify;
+	margin: auto;
+	width: 450px;
+}
 body 
 {
-	font-size: 16px;
-	margin-top: 0;
-	margin-right: 0;
-	margin-left: 0;
 	font-family: 'Roboto', sans-serif;
+}
+footer
+{
+	background-color: #f64747;
+	height: 65px;
+	margin: 0;
+	padding: 0;
+}
+footer div 
+{
+	margin: auto;
+	width: 1000px;
+}
+footer div a
+{
+	font-size: 15px;
+	text-decoration: none;
+
+}
+footer div p
+{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+footer div .faceicon:after
+{
+	content: "\e002";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+
+footer div .googleplusicon:after
+{
+	content: "\e001";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .twittericon:after
+{
+	content: "\e000";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .flickricon:after
+{
+	content: "\e003";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .skypeicon:after
+{
+	content: "\e007";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
+}
+footer div .linkedinicon:after
+{
+	content: "\e008";
+	color: white;
+	font-style: normal;
+	font-family: "icomoon";
+	font-size: 1.5em;
+	vertical-align: bottom;
+	padding-left: 1em;
+	text-decoration: none;
 }
 header 
 {
 	background-color:#29292a;
 	height:80px;
-	margin:  auto;
 	position: fixed;
 	width:100%;
 	z-index:1; 
 }
 
 
-#slide
-{	
-	margin: auto;
-	height: 450px;
-	padding-top: 70px;
-	vertical-align: middle;
-	width: 1000px;
-}
-#slide img 
-{
-	margin-top: 20px;
-}
 
 
-nav 
-{
-	margin:  auto;
-	width: 1000px;
-}
-nav a 
-{
-	color: white;
-	text-decoration: none;
-}
-nav a:hover
-{
-	color: #f64747;
-	text-decoration: none;
-}
-nav figure 
-{
-	background-color: #f64747;
-	display: inline-block;
-	height: 100px;
-	text-align: center;
-	vertical-align: middle;
-	width: 130px;
-}
 nav #menu_izq 
 {
 	color: white;
@@ -117,13 +201,30 @@ nav #menu_der li
 	text-decoration: none;
 	padding: 1em;
 }
-#nosotros
+nav 
+{
+	margin:  auto;
+	width: 1000px;
+}
+nav a 
+{
+	color: white;
+	font-family: "Roboto";
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: #f64747;
+	font-family: "Roboto";
+	text-decoration: none;
+}
+nav figure 
 {
 	background-color: #f64747;
-	width: 100%;
-	margin: auto;
+	display: inline-block;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	width: 130px;
 }
-#servicios 
-{
-	height: 600px;
-}
+
