@@ -58,14 +58,14 @@
 {
 	margin-top: 20px;
 }
-article 
+#articlenosotros 
 {
 	height: 250px;
 	margin: auto;
 	position: relative;
 	width: 1000px;
 }
-article div
+#articlenosotros div
 {
 	background:url(../imagenes/nosotros.png);
 	float: right;
@@ -78,7 +78,7 @@ article div
 	width: 407px;	
 	margin: auto;
 }
-article h2
+#articlenosotros #titulo
 {
 	color: white;
 	display: block;
@@ -88,7 +88,7 @@ article h2
 	margin-bottom: 10px;
 	margin: auto;
 }
-article p
+#articlenosotros #textoquienesomos
 {
 	color: white;
 	font-family: "Roboto";
